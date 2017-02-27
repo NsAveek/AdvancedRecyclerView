@@ -12,6 +12,17 @@ public class ItemTemplate {
     private String itemType;
     private ArrayList<SubItemTemplate> subItemList;
 
+    public ItemTemplate(){}
+
+    public ItemTemplate(int id, String itemTitle, String itemType, ArrayList<SubItemTemplate> subItemList){
+
+        this.setId(id);
+        this.setItemTitle(itemTitle);
+        this.setItemType(itemType);
+        this.setSubItemList(subItemList);
+
+    }
+
     public int getId() {
         return id;
     }

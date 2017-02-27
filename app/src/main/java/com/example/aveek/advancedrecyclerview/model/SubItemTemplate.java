@@ -10,6 +10,14 @@ public class SubItemTemplate{
     private String subItemTitle;
     private String subItemDescription;
 
+    public SubItemTemplate(){}
+
+    public SubItemTemplate(int id, String subItemTitle, String subItemDescription){
+        this.subItemId = id;
+        this.subItemTitle = subItemTitle;
+        this.subItemDescription = subItemDescription;
+    }
+
     public int getSubItemId() {
         return subItemId;
     }
