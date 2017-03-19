@@ -38,6 +38,8 @@ public class DataProducer {
 
         newTemplate.add(anItemTemplate);
         newTemplate.add(anItemTemplate2);
+        newTemplate.add(anItemTemplate);
+        newTemplate.add(anItemTemplate2);
 
         return newTemplate;
 
